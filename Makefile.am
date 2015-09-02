@@ -1,4 +1,4 @@
-SUBDIRS = m4 po libgettextdemo
+SUBDIRS = po libgettextdemo
 
 AM_CPPFLAGS = -I$(top_srcdir)/libgettextdemo
 

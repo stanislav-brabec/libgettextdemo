@@ -43,7 +43,6 @@ dnl AC_SUBST([localedir], ['$(datadir)/locale'])
 CPPFLAGS="$CPPFLAGS -DLOCALEDIR=\\\"\$(localedir)\\\""
 
 AC_CONFIG_FILES([ po/Makefile.in
-		  m4/Makefile
 		  libgettextdemo/Makefile
 		  libgettextdemo.pc
 		  Makefile

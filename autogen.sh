@@ -1,7 +1,9 @@
+touch NEWS README AUTHORS ChangeLog
 autopoint --force
 libtoolize --force --copy
 autoheader --force
 aclocal -I m4
+touch m4/ChangeLog
 automake --add-missing --gnu
 autoconf
 if test "$1" != --no-configure ; then
