@@ -8,14 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-01 14:31+0200\n"
-"PO-Revision-Date: 2015-10-01 14:31+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2015-10-02 11:49+0200\n"
+"Last-Translator: Shane Wims <shane.wims@microfocus.com>\n"
+"Language-Team: French "
+"<http://10n.opensuse.org/projects/libgettextdemo/master/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 2.3\n"
 
 #: ../libgettextdemo/libgettextdemo.c:22
 #, c-format
@@ -26,26 +28,26 @@ msgstr ""
 #, c-format
 msgid "I see %d dog.\n"
 msgid_plural "I see %d dogs.\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Je vois un chien\n"
+msgstr[1] "Je vois %d chiens\n"
 
 #: ../libgettextdemo/libgettextdemo.c:32
 msgid "dog"
-msgstr ""
+msgstr "chien"
 
 #: ../libgettextdemo/libgettextdemo.c:33
 msgid "cat"
-msgstr ""
+msgstr "chat"
 
 #: ../libgettextdemo/libgettextdemo.c:34
 msgid "sheep"
-msgstr ""
+msgstr "mouton"
 
 #: ../libgettextdemo/libgettextdemo.c:35
 msgid "pig"
-msgstr ""
+msgstr "cochon"
 
 #: ../libgettextdemo/libgettextdemo.c:44
 #, c-format
 msgid "bad animal number\n"
-msgstr ""
+msgstr "mauvais numéro animale\n"
