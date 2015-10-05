@@ -8,19 +8,21 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-10-01 14:31+0200\n"
-"PO-Revision-Date: 2015-10-01 14:31+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2015-10-05 16:23+0200\n"
+"Last-Translator: Shane Wims <shane.wims@microfocus.com>\n"
+"Language-Team: German "
+"<http://10n.opensuse.org/projects/libgettextdemo/master/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.3\n"
 
 #: ../libgettextdemo/libgettextdemo.c:22
 #, c-format
 msgid "This string comes from libgettextdemo.\n"
-msgstr ""
+msgstr "revert\n"
 
 #: ../libgettextdemo/libgettextdemo.c:28
 #, c-format
