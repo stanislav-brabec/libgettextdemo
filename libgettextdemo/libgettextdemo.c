@@ -12,7 +12,7 @@
 #else
 #define _(string) (string)
 #define N_(string) (string)
-#define Q_(string1, stringm, n) (n == 1 ? string1, stringm)
+#define Q_(string1, stringm, n) (n == 1 ? string1 : stringm)
 #define dgettext(domain, string) (string)
 #endif
 
