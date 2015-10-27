@@ -35,7 +35,7 @@ AC_SUBST([LIBGETTEXTDEMO_VERSION_INFO])
 dnl Gettext initial check.
 AM_GNU_GETTEXT_VERSION([0.17])
 dnl This is required for correct locale processing.
-AM_GNU_GETTEXT([external],[need-ngettext],[])
+AM_GNU_GETTEXT([],[need-ngettext],[])
 dnl Define LOCALEDIR. It is optional, but you often need it in the code.
 dnl It may contain prefix path elements and it is not possible to define in config.h.
 dnl Define it here and expand by make.
