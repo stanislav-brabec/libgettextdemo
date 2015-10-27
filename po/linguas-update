@@ -1,0 +1,54 @@
+#!/bin/sh
+
+# Translations selector. Returns list of languages that matches selected criterion.
+# Only GNU gettext is supported.
+#
+# Copyright (C) 2015, SUSE Linux
+# Author: Stanislav Brabec
+#
+# All rights reserved.
+#
+# The script is in public domain. Do anything you want to need with.
+#
+
+# Implemented vaules: strings_at_least, mandatory_strings_at_least, only_100_percent
+CRITERION=only_100_percent
+
+# Number of strings that must be translated
+STRINGS_AT_LEAST=10
+
+# Name of mandatory pot file (needed only for mandatory_strings_at_least, relative to po directory)
+MANDATORY_POT=libgettextdemo.pot
+
+cd `dirname $0`
+
+SPACE=""
+case $CRITERION in
+strings_at_least )
+	for PO in *.po ; do
+		if test `LC_ALL=C msgfmt --statistics -o /dev/null "$PO" 2>&1 | sed "s/ .*//"` -ge $STRINGS_AT_LEAST ; then
+			echo -n "$SPACE$PO" | sed 's/\.po//'
+			SPACE=" "
+		fi
+	done
+	;;
+mandatory_strings_at_least )
+	for PO in *.po ; do
+		if test `msgmerge -N -q $PO $MANDATORY_POT -o - | LC_ALL=C msgfmt --statistics -o /dev/null - 2>&1 | sed "s/ .*//"` -ge $STRINGS_AT_LEAST ; then
+			echo -n "$SPACE$PO" | sed 's/\.po//'
+			SPACE=" "
+		fi
+	done
+	;;
+only_100_percent )
+	rm -f po-attrib-test
+	for PO in *.po ; do
+		msgattrib --no-fuzzy --no-obsolete --translated $PO -o po-attrib-test
+		if test -f po-attrib-test ; then
+			echo -n "$SPACE$PO" | sed 's/\.po//'
+			rm -f po-attrib-test
+			SPACE=" "
+		fi
+	done
+	;;
+esac >LINGUAS
