@@ -22,20 +22,18 @@ msgstr ""
 #: libgettextdemo/libgettextdemo.c:22
 #, c-format
 msgid "This string comes from libgettextdemo.\n"
-msgstr ""
+msgstr "Cette chaîne vient de libgettextdemo.\n"
 
 #: libgettextdemo/libgettextdemo.c:28
 #, c-format
 msgid "I see %d dog.\n"
 msgid_plural "I see %d dogs.\n"
-msgstr[0] "Je vois un chien\n"
-msgstr[1] ""
-"Je vois %d chiens..\n"
-"kjhkjhkjhkjhkjh\n"
+msgstr[0] "Je vois %d chien.\n"
+msgstr[1] "Je vois %d chiens.\n"
 
 #: libgettextdemo/libgettextdemo.c:32
 msgid "dog"
-msgstr "chien  kjbkjg"
+msgstr "chien"
 
 #: libgettextdemo/libgettextdemo.c:33
 msgid "cat"
@@ -52,4 +50,4 @@ msgstr "cochon"
 #: libgettextdemo/libgettextdemo.c:44
 #, c-format
 msgid "bad animal number\n"
-msgstr "mauvais numéro animale\n"
+msgstr "mauvais nombre d'animaux\n"
