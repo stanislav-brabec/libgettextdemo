@@ -1,0 +1,53 @@
+# Ukrainian translations for libgettextdemo package.
+# Copyright (C) 2015 Free Software Foundation, Inc.
+# This file is distributed under the same license as the libgettextdemo package.
+# Automatically generated, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libgettextdemo 0.1\n"
+"Report-Msgid-Bugs-To: Stanislav Brabec <sbrabec@suse.cz>\n"
+"POT-Creation-Date: 2015-12-04 16:13+0100\n"
+"PO-Revision-Date: 2015-12-04 16:13+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: libgettextdemo/libgettextdemo.c:22
+#, c-format
+msgid "This string comes from libgettextdemo.\n"
+msgstr ""
+
+#: libgettextdemo/libgettextdemo.c:28
+#, c-format
+msgid "I see %d dog.\n"
+msgid_plural "I see %d dogs.\n"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: libgettextdemo/libgettextdemo.c:32
+msgid "dog"
+msgstr ""
+
+#: libgettextdemo/libgettextdemo.c:33
+msgid "cat"
+msgstr ""
+
+#: libgettextdemo/libgettextdemo.c:34
+msgid "sheep"
+msgstr ""
+
+#: libgettextdemo/libgettextdemo.c:35
+msgid "pig"
+msgstr ""
+
+#: libgettextdemo/libgettextdemo.c:44
+#, c-format
+msgid "bad animal number\n"
+msgstr ""
