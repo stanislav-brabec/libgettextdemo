@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: libgettextdemo 0.1\n"
 "Report-Msgid-Bugs-To: Stanislav Brabec <sbrabec@suse.cz>\n"
 "POT-Creation-Date: 2015-10-27 17:39+0100\n"
-"PO-Revision-Date: 2015-11-05 09:14+0200\n"
-"Last-Translator: Vojtech Zeisek <Vojtech.Zeisek@opensuse.org>\n"
+"PO-Revision-Date: 2016-03-22 10:59+0200\n"
+"Last-Translator: Vojtěch Zeisek <Vojtech.Zeisek@opensuse.org>\n"
 "Language-Team: Czech "
-"<http://10n.opensuse.org/projects/libgettextdemo/master/cs/>\n"
+"<http://l10n.opensuse.org/projects/libgettextdemo/master/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,7 +22,7 @@ msgstr ""
 #: libgettextdemo/libgettextdemo.c:22
 #, c-format
 msgid "This string comes from libgettextdemo.\n"
-msgstr "Tento řetězec vypsalo libgettextdemo.\n"
+msgstr "Tento řetězec vypsalo libgettextdemo.↵\n"
 
 #: libgettextdemo/libgettextdemo.c:28
 #, c-format
