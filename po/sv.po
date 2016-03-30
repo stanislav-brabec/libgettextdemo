@@ -8,44 +8,46 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: Stanislav Brabec <sbrabec@suse.cz>\n"
 "POT-Creation-Date: 2015-10-27 17:39+0100\n"
-"PO-Revision-Date: 2015-10-01 14:31+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2016-03-30 13:30+0000\n"
+"Last-Translator: Nathan Follens <nthn@unseen.is>\n"
+"Language-Team: Swedish "
+"<http://l10n.opensuse.org/projects/libgettextdemo/master/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.5\n"
 
 #: libgettextdemo/libgettextdemo.c:22
 #, c-format
 msgid "This string comes from libgettextdemo.\n"
-msgstr ""
+msgstr "Denna sträng kommer från libgettextdemo.\n"
 
 #: libgettextdemo/libgettextdemo.c:28
 #, c-format
 msgid "I see %d dog.\n"
 msgid_plural "I see %d dogs.\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Jag ser %d hund.\n"
+msgstr[1] "Jag ser %d hundar.\n"
 
 #: libgettextdemo/libgettextdemo.c:32
 msgid "dog"
-msgstr ""
+msgstr "hund"
 
 #: libgettextdemo/libgettextdemo.c:33
 msgid "cat"
-msgstr ""
+msgstr "katt"
 
 #: libgettextdemo/libgettextdemo.c:34
 msgid "sheep"
-msgstr ""
+msgstr "får"
 
 #: libgettextdemo/libgettextdemo.c:35
 msgid "pig"
-msgstr ""
+msgstr "gris"
 
 #: libgettextdemo/libgettextdemo.c:44
 #, c-format
 msgid "bad animal number\n"
-msgstr ""
+msgstr "dåligt antal djur\n"
