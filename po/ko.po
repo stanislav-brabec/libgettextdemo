@@ -8,43 +8,45 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: Stanislav Brabec <sbrabec@suse.cz>\n"
 "POT-Creation-Date: 2015-10-27 17:39+0100\n"
-"PO-Revision-Date: 2015-10-01 14:31+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2016-04-25 09:11+0000\n"
+"Last-Translator: YunSeok Choi <xein@naver.com>\n"
+"Language-Team: Korean "
+"<http://l10n.opensuse.org/projects/libgettextdemo/master/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2.5\n"
 
 #: libgettextdemo/libgettextdemo.c:22
 #, c-format
 msgid "This string comes from libgettextdemo.\n"
-msgstr ""
+msgstr "libgettextdemo 로부터 온 문자입니다.\n"
 
 #: libgettextdemo/libgettextdemo.c:28
 #, c-format
 msgid "I see %d dog.\n"
 msgid_plural "I see %d dogs.\n"
-msgstr[0] ""
+msgstr[0] "%d 마리의 개를 보았다.\n"
 
 #: libgettextdemo/libgettextdemo.c:32
 msgid "dog"
-msgstr ""
+msgstr "개"
 
 #: libgettextdemo/libgettextdemo.c:33
 msgid "cat"
-msgstr ""
+msgstr "고양이"
 
 #: libgettextdemo/libgettextdemo.c:34
 msgid "sheep"
-msgstr ""
+msgstr "양"
 
 #: libgettextdemo/libgettextdemo.c:35
 msgid "pig"
-msgstr ""
+msgstr "돼지"
 
 #: libgettextdemo/libgettextdemo.c:44
 #, c-format
 msgid "bad animal number\n"
-msgstr ""
+msgstr "잘못된 동물 숫자\n"
