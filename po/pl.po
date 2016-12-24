@@ -52,4 +52,4 @@ msgstr "świnia"
 #: libgettextdemo/libgettextdemo.c:44
 #, c-format
 msgid "bad animal number\n"
-msgstr "zły numer zwierzęcia\n"
+msgstr "zła liczba zwierząt\n"
