@@ -29,7 +29,7 @@ msgstr "這個字符串來自 libgettextdemo。\n"
 #, c-format
 msgid "I see %d dog.\n"
 msgid_plural "I see %d dogs.\n"
-msgstr[0] "我看到有%d 隻狗。\n"
+msgstr[0] "我看到有 %d 隻狗。\n"
 
 #: libgettextdemo/libgettextdemo.c:32
 msgid "dog"
