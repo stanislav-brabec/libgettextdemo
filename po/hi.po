@@ -8,44 +8,46 @@ msgstr ""
 "Project-Id-Version: libgettextdemo 0.1\n"
 "Report-Msgid-Bugs-To: Stanislav Brabec <sbrabec@suse.cz>\n"
 "POT-Creation-Date: 2016-05-24 15:32+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2018-04-07 06:48+0000\n"
+"Last-Translator: Anshul Panwar <caspian7pena@gmail.com>\n"
+"Language-Team: Hindi "
+"<https://l10n.opensuse.org/projects/libgettextdemo/master/hi/>\n"
 "Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.18\n"
 
 #: libgettextdemo/libgettextdemo.c:22
 #, c-format
 msgid "This string comes from libgettextdemo.\n"
-msgstr ""
+msgstr "यह अक्षर समूह libgettextdemo से आया है।\n"
 
 #: libgettextdemo/libgettextdemo.c:28
 #, c-format
 msgid "I see %d dog.\n"
 msgid_plural "I see %d dogs.\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "मैं %d कुत्ते को देख रहा हूँ।\n"
+msgstr[1] "मैं %dकुत्तों को देख रहा हूँ।\n"
 
 #: libgettextdemo/libgettextdemo.c:32
 msgid "dog"
-msgstr ""
+msgstr "कुत्ता"
 
 #: libgettextdemo/libgettextdemo.c:33
 msgid "cat"
-msgstr ""
+msgstr "बिल्ली"
 
 #: libgettextdemo/libgettextdemo.c:34
 msgid "sheep"
-msgstr ""
+msgstr "भेड़"
 
 #: libgettextdemo/libgettextdemo.c:35
 msgid "pig"
-msgstr ""
+msgstr "सूअर"
 
 #: libgettextdemo/libgettextdemo.c:44
 #, c-format
 msgid "bad animal number\n"
-msgstr ""
+msgstr "जानवरों की संख्या गलत है\n"
