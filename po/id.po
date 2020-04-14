@@ -8,43 +8,45 @@ msgstr ""
 "Project-Id-Version: libgettextdemo 0.1\n"
 "Report-Msgid-Bugs-To: Stanislav Brabec <sbrabec@suse.cz>\n"
 "POT-Creation-Date: 2016-05-24 15:32+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: in\n"
+"PO-Revision-Date: 2020-05-02 19:51+0000\n"
+"Last-Translator: Kukuh Syafaat <syafaatkukuh@gmail.com>\n"
+"Language-Team: Indonesian <https://l10n.opensuse.org/projects/libgettextdemo/"
+"master/id/>\n"
+"Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #: libgettextdemo/libgettextdemo.c:22
 #, c-format
 msgid "This string comes from libgettextdemo.\n"
-msgstr ""
+msgstr "String ini berasal dari libgettextdemo.\n"
 
 #: libgettextdemo/libgettextdemo.c:28
 #, c-format
 msgid "I see %d dog.\n"
 msgid_plural "I see %d dogs.\n"
-msgstr[0] ""
+msgstr[0] "Saya melihat %d anjing.\n"
 
 #: libgettextdemo/libgettextdemo.c:32
 msgid "dog"
-msgstr ""
+msgstr "anjing"
 
 #: libgettextdemo/libgettextdemo.c:33
 msgid "cat"
-msgstr ""
+msgstr "kucing"
 
 #: libgettextdemo/libgettextdemo.c:34
 msgid "sheep"
-msgstr ""
+msgstr "domba"
 
 #: libgettextdemo/libgettextdemo.c:35
 msgid "pig"
-msgstr ""
+msgstr "babi"
 
 #: libgettextdemo/libgettextdemo.c:44
 #, c-format
 msgid "bad animal number\n"
-msgstr ""
+msgstr "jumlah hewan yang buruk\n"
